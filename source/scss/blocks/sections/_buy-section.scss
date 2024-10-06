@@ -1,0 +1,32 @@
+.buy-section{
+  padding: 10px 0 15px;
+  min-height: 100dvh;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-color: rgba(var(--bg-c),1.0);
+
+  &:before{
+    top: 0;
+    left: 0;
+    content: '';
+    position: absolute;
+    background-color: rgba(var(--bg-a),1.0);
+    width: 100%;
+    height: 227px;
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  .container {
+    min-height: 100%;
+  }
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    grid-gap: 10px;
+    padding-bottom: 15px;
+  }
+}

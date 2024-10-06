@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="Ru">
+@include('partials/head.html')
+
+<body>
+
+  <main>
+    <section class="about-section">
+      <div class="container">
+        <div class="about-section__box">
+          <div class="about-section__top">
+            <div class="about-section__bg">
+              <picture>
+                <source type='image/webp' srcset='img/index/img1.webp'>
+                <img width='390' height='227' src='img/index/img1.png' alt='image'>
+              </picture>
+            </div>
+            <div class="about-section__icon">
+              <img width='45' height='45' src="./img/index/icon3.png" alt="icon">
+            </div>
+
+            <div class="discount">
+               <span class="discount__icon">
+                  <img width='30' height='30' src="./img/index/icon4.png" alt="icon">
+                </span>
+              <span class="discount__title">74%</span>
+              <span class="discount__text">Скидка</span>
+            </div>
+
+            <div class="about-section__wrapp">
+              <h1 class="title">Grill house</h1>
+              <p>75% скидка на жаренные яйца</p>
+              <span class="label">Ресторан</span>
+            </div>
+
+
+          </div>
+
+
+          <div class="main-info active">
+            <div class="main-info__top">
+              <p>Воспользуйтесь кодом и получите скидку 40% на акционные сеты в ЯпонаХата:</p>
+
+              <ol>
+                <li> Токио 48 шт вместо <b class="line">582 грн</b> <b>349 грн</b>,</li>
+                <li>Сырный 48 шт вместо <b class="line">652 грн</b> <b>399 грн</b>,</li>
+                <li>Super Big 80 шт вместо <b class="line">947 грн</b> <b>549 грн</b>.</li>
+              </ol>
+
+              <p>Просканируйте штрих, код который находиться ниже на кассе. По одному из адресов</p>
+
+              <a href="#" class="main-link">
+                <svg width='24' height='24'>
+                  <use href='img/sprite/sprite.svg#marker'></use>
+                </svg>
+                ул. Димы 87-А
+              </a>
+
+              <span class="circle"></span>
+              <span class="circle mode"></span>
+            </div>
+
+            <div class="main-info__bottom">
+              <div class="main-info__icon active">
+                <img width='309' height='91' src="./img/index/icon1.png" alt="image">
+              </div>
+
+              <div class="main-info__wrapp active">
+                <p>Вы использовали 3 бесплатных<br>
+                  штих-кода. <b>Купите PRO- Аккаунт</b>, чтобы дальше экономить</p>
+                <button class="yellow-btn">Купить PRO аккаунт</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>

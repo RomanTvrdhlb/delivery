@@ -1,0 +1,21 @@
+.main-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 6px;
+  border-radius: 21px;
+  background: rgba(var(--bg-a),1.0);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  padding: 19px 14px;
+
+  picture{
+    width: 100%;
+    height: 100%;
+    min-height: 506px;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

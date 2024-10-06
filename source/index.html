@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="Ru">
+@include('partials/head.html')
+
+<body>
+
+  <main>
+    <section class="first-section">
+      <div class="container">
+        <div class="first-section__box">
+         <div class="first-section__top">
+           <form class="search">
+             <label for="search" class="search__label">
+               <button class="search__btn">
+                 <svg width='24' height='24'>
+                  <use href='img/sprite/sprite.svg#search'></use>
+                  </svg>
+               </button>
+               <input class="search__input" type="text" id="search" name="search" placeholder="Поиск">
+             </label>
+
+             <a href="#" class="search__city">
+               <svg width='24' height='24'>
+                 <use href='img/sprite/sprite.svg#marker2'></use>
+               </svg>
+               Полтава
+             </a>
+           </form>
+
+           <nav class="main-nav">
+             <ul class="main-nav__list">
+               <li class="main-nav__item">
+                 <a href="#" class="main-nav__link active">
+                   <span class="main-nav__icon">
+                     <svg width='30' height='30'>
+                      <use href='img/sprite/sprite.svg#salad'></use>
+                      </svg>
+                   </span>
+                   Все
+                 </a>
+               </li>
+
+               <li class="main-nav__item">
+                 <a href="#" class="main-nav__link">
+                   <span class="main-nav__icon">
+                     <svg width='30' height='30'>
+                      <use href='img/sprite/sprite.svg#noodle'></use>
+                      </svg>
+                   </span>
+                   Рестораны
+                 </a>
+               </li>
+               <li class="main-nav__item">
+                 <a href="#" class="main-nav__link">
+                   <span class="main-nav__icon">
+                     <svg width='30' height='30'>
+                      <use href='img/sprite/sprite.svg#medication'></use>
+                      </svg>
+                   </span>
+                   Аптеки
+                 </a>
+               </li>
+               <li class="main-nav__item">
+                 <a href="#" class="main-nav__link">
+                   <span class="main-nav__icon">
+                     <svg width='30' height='30'>
+                      <use href='img/sprite/sprite.svg#pear'></use>
+                      </svg>
+                   </span>
+                   Бары
+                 </a>
+               </li>
+               <li class="main-nav__item">
+                 <a href="#" class="main-nav__link">
+                   <span class="main-nav__icon">
+                     <svg width='30' height='30'>
+                      <use href='img/sprite/sprite.svg#dumbbel'></use>
+                      </svg>
+                   </span>
+                   Спортзалы
+                 </a>
+               </li>
+             </ul>
+           </nav>
+         </div>
+
+          <ul class="main-list">
+            <li class="main-list__item">
+              <a href="#" class="card">
+                <div class="card__bg">
+                  <picture>
+                    <source type='image/webp' srcset='img/index/img1.webp'>
+                    <img width='390' height='227' src='img/index/img1.png' alt='image'>
+                  </picture>
+                </div>
+
+                <div class="card__icon">
+                  <img width='45' height='45' src="./img/index/icon3.png" alt="icon">
+                </div>
+
+                <div class="discount">
+                 <span class="discount__icon">
+                    <img width='30' height='30' src="./img/index/icon4.png" alt="icon">
+                  </span>
+                  <span class="discount__title">74%</span>
+                  <span class="discount__text">Скидка</span>
+                </div>
+
+                <div class="card__wrapp">
+                  <h1 class="title">Grill house</h1>
+                  <p>75% скидка на жаренные яйца</p>
+                  <span class="label">Ресторан</span>
+                </div>
+              </a>
+            </li>
+            <li class="main-list__item">
+              <a href="#" class="card">
+                <div class="card__bg">
+                  <picture>
+                    <source type='image/webp' srcset='img/index/img2.webp'>
+                    <img width='390' height='227' src='img/index/img2.png' alt='image'>
+                  </picture>
+                </div>
+
+                <div class="card__icon">
+                  <img width='45' height='45' src="./img/index/icon5.png" alt="icon">
+                </div>
+
+                <div class="discount">
+                 <span class="discount__icon">
+                    <img width='30' height='30' src="./img/index/icon4.png" alt="icon">
+                  </span>
+                  <span class="discount__title">12%</span>
+                  <span class="discount__text">Скидка</span>
+                </div>
+
+                <div class="card__wrapp">
+                  <h1 class="title">АНЦ</h1>
+                  <p>12% скидка на анальгин</p>
+                  <span class="label">Аптека</span>
+                </div>
+              </a>
+            </li>
+            <li class="main-list__item">
+              <a href="#" class="card">
+                <div class="card__bg">
+                  <picture>
+                    <source type='image/webp' srcset='img/index/img2.webp'>
+                    <img width='390' height='227' src='img/index/img2.png' alt='image'>
+                  </picture>
+                </div>
+
+                <div class="card__icon">
+                  <img width='45' height='45' src="./img/index/icon5.png" alt="icon">
+                </div>
+
+                <div class="discount">
+                 <span class="discount__icon">
+                    <img width='30' height='30' src="./img/index/icon4.png" alt="icon">
+                  </span>
+                  <span class="discount__title">12%</span>
+                  <span class="discount__text">Скидка</span>
+                </div>
+
+                <div class="card__wrapp">
+                  <h1 class="title">АНЦ</h1>
+                  <p>12% скидка на анальгин</p>
+                  <span class="label">Аптека</span>
+                </div>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <ul class="bar">
+    <li class="bar__item">
+      <a href="coupon.html" class="bar__link yellow">
+        <span class="bar__icon">
+          <svg width='24' height='24'>
+            <use href='img/sprite/sprite.svg#icon1'></use>
+          </svg>
+        </span>
+        Скидки
+      </a>
+    </li>
+    <li class="bar__item">
+      <a href="profile.html" class="bar__link">
+        <span class="bar__icon">
+          <svg width='24' height='24'>
+            <use href='img/sprite/sprite.svg#icon2'></use>
+          </svg>
+        </span>
+        Мой профиль
+      </a>
+    </li>
+  </ul>
+
+</body>
+
+</html>

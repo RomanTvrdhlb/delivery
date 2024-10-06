@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="Ru">
+@include('partials/head.html')
+
+<body>
+
+  <main>
+    <section class="profile-section">
+      <div class="container">
+        <div class="profile-section__box">
+          <div class="profile-info">
+            <div class="profile-info__box">
+               <span class="profile-info__icon">
+                  <img width='50' height='50' src="./img/index/icon2.png" alt="icon">
+                </span>
+              <span class="profile-info__title">Osnova</span>
+              <span class="profile-info__name">duaslos2</span>
+            </div>
+
+            <div class="profile-info__box profile-info__box--mode">
+              <span class="profile-info__title">0</span>
+              <span class="profile-info__name">Купонов использовано</span>
+            </div>
+          </div>
+
+          <button class="yellow-btn">Улучшить статус до Премиум
+            <svg width='24' height='24'>
+              <use href='img/sprite/sprite.svg#diamond'></use>
+            </svg>
+          </button>
+
+          <div class="profile-info profile-info--mode">
+            <span class="profile-info__subtitle">Премиум аккаунт дает возможность:</span>
+            <ol>
+              <li>Безлимитное количетсво  купонов</li>
+              <li>Уникальные премиум-купоны</li>
+              <li>Техническая поддержка 24/7</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <ul class="bar">
+    <li class="bar__item">
+      <a href="#" class="bar__link">
+        <span class="bar__icon">
+          <svg width='24' height='24'>
+            <use href='img/sprite/sprite.svg#icon1'></use>
+          </svg>
+        </span>
+        Скидки
+      </a>
+    </li>
+    <li class="bar__item">
+      <a href="#" class="bar__link yellow">
+        <span class="bar__icon">
+          <svg width='24' height='24'>
+            <use href='img/sprite/sprite.svg#icon2'></use>
+          </svg>
+        </span>
+        Мой профиль
+      </a>
+    </li>
+  </ul>
+
+</body>
+
+</html>
